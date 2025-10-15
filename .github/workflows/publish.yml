@@ -30,10 +30,10 @@ jobs:
       run: dotnet test --no-build -c Release
 
     - name: Pack Abstractions
-      run: dotnet pack DT.EmaiService.Abstractions/DT.EmaiService.Abstractions.csproj -c Release --no-build -o ./nupkg
+      run: dotnet pack DT.EmailService.Abstractions/DT.EmailService.Abstractions.csproj -c Release --no-build -o ./nupkg
 
     - name: Pack Implementation
-      run: dotnet pack DT.EmaiService/DT.EmaiService.csproj -c Release --no-build -o ./nupkg
+      run: dotnet pack DT.EmailService/DT.EmailService.csproj -c Release --no-build -o ./nupkg
 
     - name: Publish to GitHub Packages
       run: |
