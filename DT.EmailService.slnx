@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DT.EmailService.Abstractions/DT.EmailService.Abstractions.csproj" />
+  <Project Path="DT.EmailService/DT.EmailService.csproj" />
+</Solution>
