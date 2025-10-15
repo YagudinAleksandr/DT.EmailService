@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/Элементы решения/">
+    <File Path="Directory.Build.props" />
+    <File Path="LICENSE.txt" />
+    <File Path="README.md" />
+  </Folder>
   <Project Path="DT.EmailService.Abstractions/DT.EmailService.Abstractions.csproj" />
   <Project Path="DT.EmailService/DT.EmailService.csproj" />
 </Solution>
