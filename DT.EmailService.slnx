@@ -1,4 +1,18 @@
 <Solution>
+  <Folder Name="/.github/" />
+  <Folder Name="/.github/workflows/">
+    <File Path=".github/workflows/publish.yml" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DT.EmailService.Tests/DT.EmailService.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Элементы решения/">
+    <File Path="CHANGELOG.md" />
+    <File Path="DigitTwin.png" />
+    <File Path="Directory.Build.props" />
+    <File Path="LICENSE.txt" />
+    <File Path="README.md" />
+  </Folder>
   <Project Path="DT.EmailService.Abstractions/DT.EmailService.Abstractions.csproj" />
   <Project Path="DT.EmailService/DT.EmailService.csproj" />
 </Solution>

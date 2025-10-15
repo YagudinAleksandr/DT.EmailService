@@ -1,0 +1,20 @@
+<Project>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+		<Authors>Yagudin Aleksandr</Authors>
+		<Company>Yagudin Aleksandr</Company>
+		<PackageProjectUrl>https://github.com/YagudinAleksandr/DT.EmailService</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/YagudinAleksandr/DT.EmailService</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.0.0</Version>
+		<PackageIcon>DigitTwin.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="../DigitTwin.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>
