@@ -31,7 +31,7 @@ namespace DT.EmailService
             services.Configure(configureTemplates);
             services.Configure(configureSmtp);
             services.TryAddSingleton<IEmailTemplateService, FileEmailTemplateService>();
-            services.TryAddScoped<IEmailSender, SmtpEmailSender>();
+            services.TryAddTransient<IEmailSender, SmtpEmailSender>();
             services.AddSingleton<IValidateOptions<SmtpOptions>, SmtpOptionsValidator>();
 
             return services;
